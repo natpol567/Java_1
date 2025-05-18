@@ -1,4 +1,2 @@
 package knapsack;
-
-public class Item {
-}
+public record Item(int value, int weight) {}
